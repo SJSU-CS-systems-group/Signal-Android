@@ -1,5 +1,8 @@
 # Signal Android 
 
+## SJSU Disconnected System Notes: 
+In order to run this in Android studio you must delete the sha-256 line located in gradle/gradle-wrapper-properties. This line is added for a warning that appears in the app store. It is not needed when we are developing in android studio. 
+
 Signal is a messaging app for simple private communication with friends.
 
 Signal uses your phone's data connection (WiFi/3G/4G) to communicate securely, optionally supports plain SMS/MMS to function as a unified messenger, and can also encrypt the stored messages on your phone.
